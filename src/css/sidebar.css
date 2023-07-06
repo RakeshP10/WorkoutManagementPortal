@@ -1,0 +1,36 @@
+.sidebar{
+    /* background: rgb(88, 85, 85); */
+    background: rgb(29, 25, 25);
+    color: #fff;
+    height: 100vh;
+    width: 290px;
+    transition: all 0.5s;
+}
+
+.bars{
+    display: flex;
+    font-size: 25px;
+    margin-left: 50px;
+}
+.sidebarLink{
+    display: flex;
+    color: #fff;
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+    text-decoration: none;
+}
+.sidebarLink:hover{
+    /* background:rgb(226, 230, 233); */
+    /* color:  #f8b739; */
+    color: #f7a51d;
+    transition: all 0.5s;
+}
+.sidebarLink.active{
+    background: rgb(170, 170, 170);
+    color: #000;
+}
+.icon, .link_text{
+    font-size: 17px;
+}
+
